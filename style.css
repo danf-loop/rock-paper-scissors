@@ -1,0 +1,95 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #757de8;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    font-family: Helvetica;
+    font-size: 4rem;
+    color: #ba000d;
+}
+
+.choice {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    font-family: Helvetica;
+    font-size: 2rem;
+    color: #ffff;
+}
+
+.selection {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 4rem;
+}
+
+.button:hover {
+    transform: scale(1.2);
+}
+
+.resetButton {
+    display: flex;
+    justify-content: center;
+}
+
+#resetBut {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+    margin-top: 1rem;
+
+}
+
+.computerChoice {
+    text-align: center;
+    font-size: 2rem;
+    font-family: Helvetica;
+    color: #ffff;
+
+}
+
+.computerChose {
+    font-size: 4rem;
+}
+
+.result {
+    margin-top: 1rem;
+    text-align: center;
+    color: #ff7961;
+}
+
+.score {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    font-family: Helvetica;
+    color: #ffff;
+};
+
+
+.playerScore {
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+};
+
+.computerScore {
+    padding-left: 10px;
+}
+
+.p-count {
+    padding-right: 10px;
+}
